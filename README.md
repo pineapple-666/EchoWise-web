@@ -54,7 +54,7 @@ Through smart technology, every dictation practice gets instant feedback to help
 
 ### 步骤 1: 上传听写图片 / Step 1: Upload Dictation Photo
 
-![上传听写图片](screenshots/step1-upload.png)
+![image alt](https://github.com/pineapple-666/EchoWise-web/blob/8675cd05c4e5e28036d3f117431466dc223b35a3/screenshots/screenshots%3Astep1-upload.png))
 
 点击上传区域，拍照或选择听写作业图片。支持 JPG、PNG 格式。  
 Click the upload area to take a photo or select dictation image. Support JPG, PNG formats.
