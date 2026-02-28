@@ -61,14 +61,14 @@ Click the upload area to take a photo or select dictation image. Support JPG, PN
 
 ### 步骤 2: OCR 识别结果 / Step 2: OCR Recognition Results
 
-![image alt](https://github.com/pineapple-666/EchoWise-web/blob/8675cd05c4e5e28036d3f117431466dc223b35a3/screenshots/screenshots%3Astep1-upload.png)
+![image alt](https://github.com/pineapple-666/EchoWise-web/blob/6f97db7cdf06d39aef74350522c3b09c71d1da2e/screenshots/Weixin%20Image_20260228094548_19_33.png)
 
 系统自动识别手写文字，显示在文本框中，可手动编辑修正。  
 System automatically recognizes handwriting and displays in text box, editable.
 
 ### 步骤 3: 批改结果 / Step 3: Grading Results
 
-![image alt](https://github.com/pineapple-666/EchoWise-web/blob/8675cd05c4e5e28036d3f117431466dc223b35a3/screenshots/screenshots%3Astep1-upload.png)
+![image alt](https://github.com/pineapple-666/EchoWise-web/blob/6f97db7cdf06d39aef74350522c3b09c71d1da2e/screenshots/Weixin%20Image_20260228094728_20_33.png)
 
 点击"开始批改"，系统自动对比答案，显示正确率和每个单词的对错。  
 Click "Start Grading" to auto-compare answers and display accuracy with correct/wrong marks.
