@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoWise - 英语听写批改工具</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 EchoWise</h1>
+            <p>英语听写智能批改工具</p>
+        </header>
+
+        <!-- 步骤 1: 上传听写图片 -->
+        <section class="card">
+            <h2>📸 1. 上传听写图片</h2>
+            <div class="upload-area" id="uploadArea">
+                <input type="file" id="imageInput" accept="image/*" capture="camera" hidden>
+                <div class="upload-placeholder" onclick="document.getElementById('imageInput').click()">
+                    <div class="icon">📷</div>
+                    <p>点击拍照或选择图片</p>
+                    <p class="hint">支持 JPG、PNG 格式</p>
+                </div>
+                <img id="imagePreview" class="image-preview" style="display: none;">
+            </div>
+            <button id="uploadBtn" class="btn btn-primary" disabled>开始识别</button>
+        </section>
+
+        <!-- 步骤 2: OCR 识别结果 -->
+        <section class="card" id="ocrSection" style="display: none;">
+            <h2>🔍 2. 识别结果</h2>
+            <div class="result-box">
+                <textarea id="recognizedText" placeholder="识别结果将显示在这里..."></textarea>
+            </div>
+            <div class="btn-group">
+                <button id="reRecognizeBtn" class="btn btn-secondary">重新识别</button>
+                <button id="checkBtn" class="btn btn-primary">开始批改</button>
+            </div>
+        </section>
+
+        <!-- 步骤 3: 批改结果 -->
+        <section class="card" id="resultSection" style="display: none;">
+            <h2>✅ 3. 批改结果</h2>
+            <div class="accuracy-display">
+                <div class="accuracy-circle" id="accuracyCircle">
+                    <span id="accuracyValue">0%</span>
+                </div>
+                <p class="accuracy-text">正确率</p>
+            </div>
+            <div id="wordResults" class="word-results"></div>
+            <button id="resetBtn" class="btn btn-secondary">重新开始</button>
+        </section>
+
+        <!-- 词库选择 -->
+        <section class="card">
+            <h2>📚 词库范围</h2>
+            <div class="vocab-options">
+                <label><input type="checkbox" checked> 四级词汇</label>
+                <label><input type="checkbox" checked> 六级词汇</label>
+                <label><input type="checkbox" checked> 高中词汇</label>
+                <label><input type="checkbox"> 雅思词汇</label>
+                <label><input type="checkbox"> 托福词汇</label>
+            </div>
+        </section>
+
+        <footer>
+            <p>EchoWise Web 原型 v1.0 | 2026-02-28</p>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
