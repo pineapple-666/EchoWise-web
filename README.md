@@ -210,7 +210,7 @@ MIT License
 
 ## 👤 作者
 
-**EchoWise Team**
+**pineapple-666**
 
 ---
 
