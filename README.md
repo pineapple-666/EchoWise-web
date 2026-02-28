@@ -232,7 +232,7 @@ MIT License
 
 ## 👤 作者 / Author
 
-**EchoWise Team**
+**pineapple-666 and her clawbot agent**
 
 ---
 
